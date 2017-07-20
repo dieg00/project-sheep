@@ -1,2 +1,5 @@
+var dot;
+
 alert("hola0");
-button.onclick.prompt("Escriba el nombre de su perro");
+//button2.onclick.prompt("Escriba el nombre de su perro");
+dot = prompt("Escriba el nombre de su perro");
