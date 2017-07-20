@@ -5,3 +5,9 @@
 .list{
 font-size:300%;
 }
+
+.login-box{
+border: 4px solid black;
+margin: 1.7em;
+
+}
