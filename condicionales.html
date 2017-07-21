@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -7,7 +7,24 @@
   <title>Ciclos</title>
 </head>
 <body>
+
+<form action="" >
+  <input type="text" id="var1" >
+  <input type="text" id="var2" >
+  <input type="button" value="suma" onclick="alert(suma());" >
+</form>
+
+
+
+
+
+
   <script>
+
+
+
+// var n1a = document.getElementById("var1");
+// var n1b = n1a.value;
 
 //function saludo(momento) {
   //document.write("Hola buenas " + momento)}
@@ -16,15 +33,27 @@
 
 
 function suma(num1, num2) {
-  return num1 + num2;   
+
+
+  var num1 = parseFloat(document.getElementById("var1").value);
+  var num2 = parseFloat(document.getElementById("var2").value);
+
+
+
+  var resultado = num1 + num2;
+  return resultado;
 
 }
-var n1 = parseInt(prompt("Primer numero"));
-var n2 = parseInt(prompt("Segundo numero"));
+
+
+
+
+// var n1 = parseInt(prompt("Primer numero"));
+// var n2 = parseInt(prompt("Segundo numero"));
 
 //var nu1 = parseInt(n1);
 //var nu2 = parseInt(n2);
-alert("Resultado " + suma(n1, n2));
+//alert("Resultado " + suma(n1, n2));
 
   //  for (var i = 0; i <= 5; i++) {
   //  document.write("Casa " + i +"<br>")
