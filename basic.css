@@ -1,11 +1,13 @@
 .title{
-  font-size: 400%;
+  font-size: 150%;
 }
 
 .list{
 font-size:300%;
 }
-
+.title2{
+  font-size: 100%;
+}
 
 .viaje{
   /*display: block;
@@ -14,6 +16,13 @@ font-size:300%;
   content: " ";*/
   line-height: 200%;
   align-items: center;
+}
+
+.oveja{
+  font-size: 3em;
+  font-weight: 500;
+  font-family: Josefin Sans, sans-serif;
+  text-align: center;
 }
 
 
