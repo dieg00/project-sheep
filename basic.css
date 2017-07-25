@@ -8,6 +8,14 @@ font-size:300%;
 
 .login-box{
 border: 4px solid black;
-margin: 1.7em;
+margin: auto;
+margin-left: 20em;
+margin-right: 20em;
+}
+.viaje{
+  /*display: block;
+  margin:10px 0;
 
+  content: " ";*/
+  line-height: 200%;
 }
