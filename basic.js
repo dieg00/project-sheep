@@ -16,6 +16,7 @@ function login(){
   if (user == "Diego" && password == "dot") {
     window.location.href = "dashboard.html";
   } else {
+    alert("Error(Logging Failed)")
     window.location.href = "login.html";
   }
 

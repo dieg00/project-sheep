@@ -1,25 +1,8 @@
-.title{
+/*COMMON. Clases usadas de forma común en todas las páginas*/
+.title-general{
   font-size: 150%;
 }
 
-.list{
-font-size:300%;
-}
-.title2{
-  font-size: 100%;
-}
-
-.login-input{
-  /*display: block;
-  margin:10px 0;
-
-  content: " ";*/
-  line-height: 200%;
-  text-align: center;
-}
-.verde{
-  color: green;
-}
 .oveja{
   font-size: 3em;
   font-weight: 500;
@@ -28,23 +11,61 @@ font-size:300%;
 }
 
 
+/*INDEX. Clases usadas en index.html*/
+.list{
+  font-size:300%;
+}
+
+/*LOGIN. Clases usadas en login.html*/
+.background-login{
+  background-color: rgb(48, 255, 51);
+}
+
+.login-input{
+  line-height: 200%;
+  text-align: center;
+  margin: auto;
+}
+.input-text{
+  text-align: center;
+
+}
+
+.button-login{
+  color: green;
+  border-radius: 8px;
+}
+
+.login-box{
+  border-radius: 20px;
+  align-items: center;
+  background-color: rgb(200, 193, 194);
+  border: blue;
+}
+
+
+
+
+/*EXTRA: Orientación. Usar para tamaño y forma de divs para versiones móvil*/
 @media screen and (orientation:portrait) {
   .login-box{
   border: 4px solid black;
-  margin: auto;
+
   margin-left: 10%;
   margin-right: 10%;
-  align-items: center;
+
+
   }  /* Portrait styles */
 }
 
 @media screen and (orientation:landscape) {
   .login-box{
-  border: 4px solid red;
-  margin: auto;
+  border: 7px solid rgb(48, 154, 31);
+
   margin-left: 30%;
   margin-right: 30%;
-  align-items: center;
+
+
 
   }
     /* Landscape styles */

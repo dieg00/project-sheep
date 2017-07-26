@@ -1,35 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Login</title>
-    <link rel="stylesheet" href="basic.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+      <link rel="stylesheet" href="basic.css">
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
 
-</head>
-<body>
-<p class="oveja", "verde">  Proyecto Oveja  </p>
-<h1 class="title2"> Bienvenido a la página de prueba del proyecto oveja </h1>
-  <p class="title2">Do you wanna log on to the web page??</p>
-<div class="login-box">
+  </head>
 
-<div class="login-input">
-<form>
-  <input type="text" placeholder="Usuario" id="user" required>
-  <br />
-  <input type="password" placeholder="Contraseña" id="password" required/>
-  <br />
-  <input type="button" value="login" onclick="return login()">
-  <br />
-  <input type="submit" />
-</form>
-</div>
-</div>
+  <body class="background-login">
+        <p class="oveja">  Proyecto Oveja  </p>
 
-<script src="basic.js"> </script>
+        <h1 class="title2"> Bienvenido a la página de prueba del proyecto oveja </h1>
 
+        <p class="title2">Do you wanna log on to the web page??</p>
 
-</body>
+      <div class="login-box">
+
+        <div class="login-input">
+          <form onsubmit="return false;">
+          <!-- onsubmit="return false" hace que el formulario no se envíe a la base de datos,
+          permitiendo que se ejecute la funcion de javascript-->
+            <input type="text" class="input-text" placeholder="Usuario" id="user" required>
+              <br />
+            <input type="password" class="input-text" placeholder="Contraseña" id="password" required/>
+              <br />
+
+            <input type="submit" class="button-login"value="Login" onclick="return login()"/>
+          </form>
+        </div>
+      </div>
+
+    <script src="basic.js"> </script>
+  </body>
 </html>
