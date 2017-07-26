@@ -9,15 +9,17 @@ font-size:300%;
   font-size: 100%;
 }
 
-.viaje{
+.login-input{
   /*display: block;
   margin:10px 0;
 
   content: " ";*/
   line-height: 200%;
-  align-items: center;
+  text-align: center;
 }
-
+.verde{
+  color: green;
+}
 .oveja{
   font-size: 3em;
   font-weight: 500;
@@ -43,6 +45,7 @@ font-size:300%;
   margin-left: 30%;
   margin-right: 30%;
   align-items: center;
+
   }
     /* Landscape styles */
 }

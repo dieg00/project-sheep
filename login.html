@@ -10,18 +10,20 @@
 
 </head>
 <body>
-<p class="oveja">  Proyecto Oveja  </p>
+<p class="oveja", "verde">  Proyecto Oveja  </p>
 <h1 class="title2"> Bienvenido a la página de prueba del proyecto oveja </h1>
   <p class="title2">Do you wanna log on to the web page??</p>
 <div class="login-box">
-<p> Introduzca usuario y contraseña, pulse el botón: </p>
-<div class="viaje">
+
+<div class="login-input">
 <form>
-  <input type="text" id="user" >
+  <input type="text" placeholder="Usuario" id="user" required>
   <br />
-  <input type="text" id="password" />
+  <input type="password" placeholder="Contraseña" id="password" required/>
   <br />
   <input type="button" value="login" onclick="return login()">
+  <br />
+  <input type="submit" />
 </form>
 </div>
 </div>
