@@ -1,0 +1,32 @@
+header{
+  background-color: blue;
+  font-family: sans-serif;
+
+}
+
+.menuHeader{
+font-weight: bold;
+list-style-type: none;
+overflow:hidden;
+margin: 0;
+padding: 0;
+}
+
+.itemHeader{
+  float: left;
+}
+
+.itemHeader a{
+  display: block;
+  color: yellow;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.rightHeader{
+float:right;
+}
+ .itemHeader a:hover{
+   background-color: black;
+}

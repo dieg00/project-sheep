@@ -22,3 +22,5 @@ function login(){
 
 
 }
+
+document.getElementById("login-form").user.focus()
