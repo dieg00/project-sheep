@@ -1,7 +1,21 @@
+*{
+  border: 0px solid black;
+}
+
+div{
+  display:inline-block;
+}
+
 header{
   background-color: blue;
   font-family: sans-serif;
 
+}
+
+footer{
+  position: relative;
+  margin: 20px;
+  background-color: green;
 }
 
 .menuHeader{
@@ -29,4 +43,42 @@ float:right;
 }
  .itemHeader a:hover{
    background-color: black;
+}
+
+.actividadBox{
+  width: 100%;
+}
+.estado{
+  width: 45%;
+  height: 50%;
+}
+
+.perfil{
+  width: 45%;
+  float: right;
+}
+
+.icon{
+  width: 100px;
+
+}
+
+.actividadMenu{
+font-weight: bold;
+ list-style-type: none;
+ overflow:hidden;
+ margin: 0;
+ padding: 0;
+ }
+
+.actividadItem{
+  float:left;
+  width: 33%;
+}
+ .actividadItem a{
+ display: block;
+ color: black;
+ text-align: center;
+ padding: 16px;
+ text-decoration: none;
 }
