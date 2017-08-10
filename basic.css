@@ -59,12 +59,12 @@
 footer{
   background:#3f2830;
     color:#fcde9c;
-  margin-top:25%;
+  height:50%;
 }
 li{
   display:inline-block;
   padding:20px 20px;
-  margin-top:auto;
+  
 }
 
 
