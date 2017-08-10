@@ -45,10 +45,6 @@
  
 }
 
-.button-login{
-  color: black;
-  border-radius: 8px;
-}
 
 .login-box{
   border-radius: 20px;
@@ -73,7 +69,7 @@ footer{
   
 }
 
-.boton{
+.button-login{
   padding: 15px;
   background: #ED572A;
   color: #E1E9FA;
