@@ -19,7 +19,9 @@
 /*LOGIN. Clases usadas en login.html*/
 .background-login{
   background:url(resources/login.jpg);
-  width:25%;
+ background-size: 
+   width:100%;
+  background-repeat: no-repeat
 }
 .signup{
   text-align: center;
