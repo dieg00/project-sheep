@@ -5,7 +5,6 @@
 
 .oveja{
   font-size: 250%;
-  color:#a44200;
   font-weight: 500;
   font-family: HP Simplified Light, sans-serif;
   text-align: center;
@@ -62,6 +61,7 @@ footer{
     color:#fcde9c;
   padding: 10px 0px;
   margin-top:10%;
+  float: left;
 }
 
 
