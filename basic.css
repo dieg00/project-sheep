@@ -1,10 +1,10 @@
 /*COMMON. Clases usadas de forma común en todas las páginas*/
 .title-general{
-  font-size: 150%;
+  font-size: 250%;
 }
 
 .oveja{
-  font-size: 150%;
+  font-size: 250%;
   font-weight: 500;
   font-family: HP Simplified Light, sans-serif;
   text-align: center;
@@ -35,9 +35,10 @@
 }
 .input-text{
   text-align: center;
-
 }
-
+.selector{
+  font-family:HP Simplified Light;
+}
 .button-login{
   color: black;
   border-radius: 8px;
@@ -48,7 +49,6 @@
   align-items: center;
   background-color:#ffa552;
   border:2px solid:#f75c03;
-  height: 40%;
 }
 
 
