@@ -20,7 +20,8 @@
 .background-login{
   background:url(resources/login.jpg);
  background-size:100%;
-  background-repeat: no-repeat
+  background-repeat: no-repeat;
+  background-attachment:fixed;
 }
 .signup{
   text-align: center;
@@ -59,7 +60,8 @@
 footer{
   background:#3f2830;
     color:#fcde9c;
-  height:50%;
+  padding:10px 0px;
+  text-align:center;
 }
 li{
   display:inline-block;
