@@ -67,13 +67,22 @@ footer{
   margin-right:50%;
   margin-left:50%;
 }
-li{
+.footerLi{
   display:inline-block;
   padding:20px 20px;
   
 }
 
-
+.boton{
+  padding: 15px;
+  background: #ED572A;
+  color: #E1E9FA;
+  font-size: 1em;
+  font-family: HP Simplified Light, sans-serif;
+  border-radius: 2px;
+  border: none;
+  float: right;
+  cursor: pointer;
 
 
 /*EXTRA: Orientación. Usar para tamaño y forma de divs para versiones móvil*/
