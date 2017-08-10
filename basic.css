@@ -18,7 +18,7 @@
 
 /*LOGIN. Clases usadas en login.html*/
 .background-login{
-  background:url(********);
+  background:url(resources/login.jpg);
 }
 .signup{
   text-align: center;
