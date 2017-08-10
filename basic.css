@@ -6,7 +6,7 @@
 .oveja{
   font-size: 3em;
   font-weight: 500;
-  font-family: Josefin Sans, sans-serif;
+  font-family: HP Simplified Light, sans-serif;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@
 
 /*LOGIN. Clases usadas en login.html*/
 .background-login{
-  background-color: rgb(48, 255, 51);
+  background:url(../imagenes/login.jpg);
 }
 .signup{
   text-align: center;
@@ -37,15 +37,15 @@
 }
 
 .button-login{
-  color: green;
+  color: black;
   border-radius: 8px;
 }
 
 .login-box{
   border-radius: 20px;
   align-items: center;
-  background-color: rgb(200, 193, 194);
-  border: blue;
+  background-color: #ffa552);
+  border:#f75c03;
 }
 
 
