@@ -64,6 +64,8 @@ footer{
   text-align:center;
   margin-top:10%;
   margin-bottom:90%;
+  margin-right:50%;
+  margin-left:50%;
 }
 li{
   display:inline-block;
