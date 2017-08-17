@@ -1,3 +1,13 @@
+*{
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
 /*COMMON. Clases usadas de forma común en todas las páginas*/
 .title-general{
   font-size: 250%;
