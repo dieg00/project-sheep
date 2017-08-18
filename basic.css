@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family:"New Cycle", sans-serif;
+    font-family:"News Cycle", sans-serif;
 }
 
 /*COMMON. Clases usadas de forma común en todas las páginas*/
@@ -25,7 +25,7 @@ body{
 .oveja{
   font-size: 275%;
   font-weight: 500;
-  font-family:"New Cycle", sans-serif;
+  font-family:"News Cycle", sans-serif;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ body{
 }
 .signup{
   text-align: center;
-  font-family:"New Cycle",Calibri,sans-serif;
+  font-family:"News Cycle",Calibri,sans-serif;
   font-size: 14px;
   font-weight: lighter;
 }
@@ -58,7 +58,7 @@ body{
 }
 
 .selector{
-  font-family: HP Simplified Light, sans-serif;
+  font-family:"News Cycle", sans-serif;
   font-weight: 200;
 
 }
@@ -95,7 +95,7 @@ footer{
   background: #ED572A;
   color: #E1E9FA;
   font-size: 1em;
-  font-family: HP Simplified Light, sans-serif;
+  font-family: "New Cycle", sans-serif;
   border-radius: 2px;
   border: none;
   cursor: pointer;
