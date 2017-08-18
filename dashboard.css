@@ -12,7 +12,7 @@ body{
 }
 
 .todo{
-    height: 100%;
+  margin-bottom: -50px;
   min-height: 100%;
 }
 *{
@@ -35,6 +35,7 @@ footer{
   clear:both;
   padding:10px 0px;
   text-align:center;
+  height: -50px;
   /*position: relative;
   float:left;
   margin-top: -3em;
