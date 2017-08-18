@@ -20,6 +20,7 @@ body{
   max-width: 500px;
   margin: auto;
   background-color: green;
+  border: 20px solid black;
 }
 
 .oveja{
