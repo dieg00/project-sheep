@@ -15,6 +15,10 @@ body{
   color: #3f2830;
 }
 
+.dashboardSuperior{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 .todo{
   margin-bottom: -50px;
   min-height: 100%;
@@ -78,7 +82,7 @@ float:right;
 
 .actividadBox{
   width: 100%;
-  margin-top:10%;
+  margin-top:5%;
 }
 .estado{
   width: 45%;
