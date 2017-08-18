@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 
-
+body{
+    font-family: HP Simplified Light, sans-serif;
+}
 
 /*COMMON. Clases usadas de forma común en todas las páginas*/
 .title-general{
@@ -46,13 +48,13 @@
 }
 .input-text{
   text-align: center;
-  
+
 }
 
 .selector{
   font-family: HP Simplified Light, sans-serif;
   font-weight: 200;
- 
+
 }
 
 
@@ -62,9 +64,7 @@
   background-color:#ffa552;
   border:2px solid:#f75c03;
   height: 40%;
-  margin-left:30%;
-  margin-right:30%;
-  margin-top:10%;
+  margin:25px;
 }
 footer{
   background:#3f2830;
@@ -78,9 +78,8 @@ footer{
 }
 .footerLi{
   display:inline-block;
-  float:left;
   padding:20px 20px;
-  
+
 }
 
 .button-login{
@@ -108,7 +107,7 @@ footer{
 
 @media screen and (orientation:landscape) {
   .login-box{
-  
+
   /*border: 7px solid rgb(48, 154, 31);*/
 
   margin-left: 30%;
