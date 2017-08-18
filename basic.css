@@ -19,8 +19,6 @@ body{
   width: 90%;
   max-width: 500px;
   margin: auto;
-  background-color: green;
-  border: 20px solid black;
 }
 
 .oveja{
@@ -54,8 +52,10 @@ body{
   text-align: center;
   margin: auto;
 }
-.input-text{
+.input-text, textarea{
   text-align: center;
+  box-sizing:border-box;
+  borde:1px solid:#fcde9c;
 
 }
 
@@ -73,6 +73,8 @@ body{
   border:2px solid:#f75c03;
   height: 40%;
   margin-top:10%;
+  margin-right:30%;
+  margin-left:30%;
 }
 footer{
   background:#3f2830;
