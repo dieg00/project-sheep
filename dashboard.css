@@ -17,8 +17,8 @@ div{
 }
 
 header{
-  background-color: blue;
-  font-family: sans-serif;
+  background-color: #f75c03;
+  font-family:"News Cycle", sans-serif;
 
 }
 
@@ -27,8 +27,7 @@ footer{
   margin: 20px;
   background-color: #ffa552;
   display:inline-block;
-  text-align:center;
-}
+  }
 
 .menuHeader{
 font-weight: bold;
