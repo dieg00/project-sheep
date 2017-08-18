@@ -38,7 +38,7 @@ header{
 }
 
 footer{
-  background-color: #ffa552;
+  background-color: #a44200;
   clear:both;
   padding:0;
   text-align:center;
@@ -77,7 +77,7 @@ float:right;
 }
 
  .itemHeader a:hover{
-   background-color: #a44200;
+   background-color:#ffa552;
 }
 
 .actividadBox{
