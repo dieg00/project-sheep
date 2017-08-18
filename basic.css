@@ -78,6 +78,7 @@ footer{
 }
 .footerLi{
   display:inline-block;
+  float:left;
   padding:20px 20px;
   
 }
