@@ -108,3 +108,6 @@ float:right;
  padding: 16px;
  text-decoration: none;
 }
+.noLink{
+  text-decoration:none;
+}
