@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 
-
+body{
+  background-color: #fcde9c
+}
 
 *{
   border: 0px solid black;
