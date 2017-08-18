@@ -8,7 +8,7 @@
 
 body{
     font-family:"News Cycle", sans-serif;
-  position:static;
+  overflow:hidden;
 }
 
 /*COMMON. Clases usadas de forma común en todas las páginas*/
