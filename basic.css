@@ -52,11 +52,8 @@ body{
   text-align: center;
   margin: auto;
 }
-.input-text, textarea{
+.input-text{
   text-align: center;
-  box-sizing:border-box;
-  borde:1px solid:#fcde9c;
-
 }
 
 .selector{
