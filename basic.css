@@ -20,6 +20,7 @@ body{
 .oveja{
   font-size:50px;
   text-align:center;
+  color:#3f2830;
 }
 
 .wrap{
@@ -57,7 +58,9 @@ form{
   text-align: center;
   font-family:"News Cycle",Calibri,sans-serif;
   font-size: 14px;
-  font-weight: lighter;
+  /*font-weight: lighter;*/
+  font-weight:bold;
+  
 }
 .login-input{
   line-height: 200%;
