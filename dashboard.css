@@ -44,6 +44,10 @@ footer{
   margin-top: -3em;
   height: 3em;*/
   }
+main{
+  margin-left:5%;
+  margin-right:5%;
+}
 
 .menuHeader{
 font-weight: bold;
