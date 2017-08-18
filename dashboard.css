@@ -25,7 +25,9 @@ header{
 footer{
   position: relative;
   margin: 20px;
-  background-color: green;
+  background-color: #ffa552;
+  display:inline-block;
+  text-align:center;
 }
 
 .menuHeader{
