@@ -8,10 +8,13 @@
 
 body{
   background-color: #fcde9c;
-  height: 100%;
-  min-height: 100%;
+
 }
 
+.todo{
+    height: 100%;
+  min-height: 100%;
+}
 *{
   border: 0px solid black;
 }
