@@ -7,41 +7,49 @@
 
     <title>Login</title>
       <link rel="stylesheet" href="basic.css">
-      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
       <link rel="shortcut icon" href="resources/oveja.ico" />
-    <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
 
   </head>
 
   <body class="background-login">
     <div class="todo">
+
     <div class="wrap">
         <p class="oveja">  Proyecto Oveja  </p>
 
-      <div class="login-box">
 
-        <div class="login-input">
+
+
           <form onsubmit="return false;" id="login-form">
           <!-- onsubmit="return false" hace que el formulario no se envíe a la base de datos,
           permitiendo que se ejecute la funcion de javascript-->
-            <input type="radio" name="account-type" value="profesor" id="profesor" /> <label class="selector" for="profesor">Profesor</label>
-            <input type="radio" name="account-type" value="alumno" id="alumno" /> <label class="selector" for="alumno">Alumno</label>
-            <br>
+                <label class="radio inline">
+                    <input type="radio" name="accountType" value="profesor" checked>
+                    <span> Profesor </span>
+                </label>
+                <label class="radio inline">
+                    <input type="radio" name="accountType" value="alumno">
+                    <span>  Alumno </span>
+                </label>
+            <br />
 
-            <input type="text" name="user" class="input-text" placeholder="Usuario" id="user" required>
+            <input type="text" name="user" class="loginInput" placeholder="Usuario" id="user" required>
               <br />
-            <input type="password" name="password" class="input-text" placeholder="Contraseña" id="password" required/>
+            <input type="password" name="password" class="loginInput" placeholder="Contraseña" id="password" required/>
               <br />
 
-            <input type="submit" class="button-login" value="Login" onclick="return login()"  />
+            <input type="submit" class="loginButton" value="Sign In" onclick="return login()"  />
           </form>
-        </div>
+
         <hr />
         <p class="signup">
           ¿No tienes una cuenta? Regístrate <a href="signup.html">aquí</a>.
         </p>
-      </div>
+
     </div>
+
     </div>
     <footer>
       <ul>

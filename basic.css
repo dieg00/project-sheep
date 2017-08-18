@@ -7,8 +7,10 @@
 }
 
 body{
-    font-family:"News Cycle", sans-serif;
-  overflow:hidden;
+  font-family: "New Cycle", Arial, sans-serif, helvetica;
+  overflow: hidden;
+  background: #ffa552;
+  font-size: 16px;
 }
 
 /*COMMON. Clases usadas de forma común en todas las páginas*/
@@ -20,15 +22,9 @@ body{
   width: 90%;
   max-width: 500px;
   margin: auto;
-  border: 20px solid #fcde9c;
+
 }
 
-.oveja{
-  font-size: 275%;
-  font-weight: 500;
-  font-family:"News Cycle", sans-serif;
-  text-align: center;
-}
 
 
 /*INDEX. Clases usadas en index.html*/
@@ -36,13 +32,23 @@ body{
   font-size:300%;
 }
 
+form{
+  width: 100%;
+  margin: 20px 0;
+  padding: 20px;
+  background: #fcde9c;
+  overflow: hidden;
+  box-shadow: 0 0 3px grey;
+  border-top: 4px solid #f75c03;
+}
+
 /*LOGIN. Clases usadas en login.html*/
-.background-login{
+/*.background-login{
   background:url(resources/login.jpg);
- background-size:100%;
+  background-size:100%;
   background-repeat: no-repeat;
   background-attachment:fixed;
-}
+}*/
 .signup{
   text-align: center;
   font-family:"News Cycle",Calibri,sans-serif;
@@ -88,17 +94,88 @@ footer{
   padding:20px 20px;
 
 }
+.loginInput{
+  border: 1px solid #f75c03;
+  border-radius: 2px;
+  padding: 16px;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 1em;
+  color: #a44200;
+}
 
-.button-login{
+.loginInput:focus{
+  border: 2px solid #f75c03;
+  padding: 15px;
+}
+
+.loginButton{
   padding: 15px;
   background: #ED572A;
   color: #E1E9FA;
   font-size: 1em;
-  font-family: "New Cycle", sans-serif;
   border-radius: 2px;
   border: none;
   cursor: pointer;
+}
 
+.inline{
+  display: inline-block;
+}
+.inline + .inline{
+  margin-left:10px;
+}
+.radio{
+  color: #3f2830;
+  font-size:15px;
+  position:relative;
+  margin-bottom: 6%;
+}
+.radio span{
+  position:relative;
+   padding-left:20px;
+}
+.radio span:after{
+  content:'';
+  width:15px;
+  height:15px;
+  border:3px solid;
+  position:absolute;
+  left:0;
+  top:1px;
+  border-radius:100%;
+  -ms-border-radius:100%;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
+  box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+}
+.radio input[type="radio"]{
+   cursor: pointer;
+  position:absolute;
+  width:100%;
+  height:100%;
+  z-index: 1;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
+}
+.radio input[type="radio"]:checked + span{
+  color: #f75c03;
+}
+.radio input[type="radio"]:checked + span:before{
+    content:'';
+  width:5px;
+  height:5px;
+  position:absolute;
+  background: #f75c03;
+  left:5px;
+  top:6px;
+  border-radius:100%;
+  -ms-border-radius:100%;
 
 /*EXTRA: Orientación. Usar para tamaño y forma de divs para versiones móvil*/
 @media screen and (orientation:portrait) {
