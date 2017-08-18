@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body,html{
-  height:98%;
+  height:99.4%;
   padding:0;
 }
 body{
@@ -74,7 +74,7 @@ float:right;
 
 .actividadBox{
   width: 100%;
-  margin-top:5%;
+  margin-top:10%;
 }
 .estado{
   width: 45%;
