@@ -47,12 +47,12 @@ form{
 }
 
 /*LOGIN. Clases usadas en login.html*/
-/*.background-login{
+.background-login{
   background:url(resources/login.jpg);
   background-size:100%;
   background-repeat: no-repeat;
   background-attachment:fixed;
-}*/
+}
 .signup{
   text-align: center;
   font-family:"News Cycle",Calibri,sans-serif;
