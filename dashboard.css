@@ -11,7 +11,8 @@ body,html{
 }
 body{
   background-color: #fcde9c;
-
+  font-family:"News Cycle", sans-serif;
+  color: #3f2830;
 }
 
 .todo{
@@ -28,13 +29,12 @@ div{
 
 header{
   background-color: #f75c03;
-  font-family:"News Cycle", sans-serif;
+ 
 
 }
 
 footer{
   background-color: #ffa552;
-  color:black;
   clear:both;
   padding:0;
   text-align:center;
@@ -59,7 +59,6 @@ padding: 0;
 
 .itemHeader a{
   display: block;
-  color: #3f2830;
   text-align: center;
   padding: 16px;
   text-decoration: none;
@@ -68,6 +67,7 @@ padding: 0;
 .rightHeader{
 float:right;
 }
+
  .itemHeader a:hover{
    background-color: #a44200;
 }
@@ -91,7 +91,7 @@ float:right;
 }
 
 .actividadMenu{
-font-weight: bold;
+ font-weight: bold;
  list-style-type: none;
  overflow:hidden;
  margin: 0;
@@ -104,7 +104,6 @@ font-weight: bold;
 }
  .actividadItem a{
  display: block;
- color: black;
  text-align: center;
  padding: 16px;
  text-decoration: none;
