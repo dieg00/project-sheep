@@ -15,6 +15,12 @@ body{
   font-size: 250%;
 }
 
+.wrap{
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+}
+
 .oveja{
   font-size: 275%;
   font-weight: 500;
