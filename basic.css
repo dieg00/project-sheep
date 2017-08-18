@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: HP Simplified Light, sans-serif;
+    font-family:"New Cycle", sans-serif;
 }
 
 /*COMMON. Clases usadas de forma común en todas las páginas*/
@@ -25,7 +25,7 @@ body{
 .oveja{
   font-size: 275%;
   font-weight: 500;
-  font-family: HP Simplified Light, sans-serif;
+  font-family:"New Cycle", sans-serif;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@ body{
 }
 .signup{
   text-align: center;
-  font-family: Calibri, sans-serif;
+  font-family:"New Cycle",Calibri,sans-serif;
   font-size: 14px;
   font-weight: lighter;
 }
