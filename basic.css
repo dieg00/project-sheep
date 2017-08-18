@@ -93,6 +93,7 @@ footer{
   clear:both;
   padding:10px 0px;
   text-align:center;
+  height: -50px;
 }
 .footerLi{
   display:inline-block;
