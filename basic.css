@@ -80,14 +80,19 @@ form{
   margin-top:10%;
 }
 footer{
-  background:#3f2830;
+  /*background:#3f2830;
     color:#fcde9c;
   padding:10px 0px;
   text-align:center;
   margin-top:10%;
   margin-bottom:90%;
   margin-right:50%;
-  margin-left:50%;
+  margin-left:50%;*/
+  background:#3f2830;
+  color:#fcde9c;
+  clear:both;
+  padding:10px 0px;
+  text-align:center;
 }
 .footerLi{
   display:inline-block;
