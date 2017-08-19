@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 body{
   font-family: "New Cycle", Arial, sans-serif, helvetica;
   overflow: hidden;
@@ -31,8 +37,12 @@ body{
 
 }
 
-
-
+.todo{
+  min-height: 100%;
+  position: relative;
+  padding: 0 0 100px;
+}
+  
 /*INDEX. Clases usadas en index.html*/
 .list{
   font-size:300%;
@@ -102,8 +112,10 @@ footer{
   padding:0px 0px;
   text-align:center;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
+  left: 0;
+  height: 100px;
 }
 .footerLi{
   display:inline-block;
