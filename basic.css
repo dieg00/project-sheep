@@ -99,9 +99,9 @@ footer{
   background:#3f2830;
   color:#fcde9c;
   clear:both;
-  padding:10px 0px;
+  padding:0px 0px;
   text-align:center;
-  position: fixed;
+  position: absolute;
   bottom: 0px;
   width: 100%;
 }
