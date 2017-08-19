@@ -40,7 +40,7 @@ body{
 .todo{
   min-height: 100%;
   position: relative;
-  padding: 0 0 10%;
+  padding: 0 0 100px;
 }
   
 /*INDEX. Clases usadas en index.html*/
@@ -115,7 +115,7 @@ footer{
   bottom: 0;
   width: 100%;
   left: 0;
-  height: 10%;
+  height: 100px;
 }
 .footerLi{
   display:inline-block;
