@@ -9,12 +9,12 @@ html, body{
   height: 100%;
   margin: 0;
   padding: 0;
+  overflow: scroll;
 }
 body{
   background-color: #fcde9c;
   font-family:"News Cycle", sans-serif;
   color: #3f2830;
-  overflow: hidden;
 }
 
 .dashboardSuperior{
