@@ -14,6 +14,7 @@ body{
   background-color: #fcde9c;
   font-family:"News Cycle", sans-serif;
   color: #3f2830;
+  overflow: hidden;
 }
 
 .dashboardSuperior{
