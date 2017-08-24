@@ -5,9 +5,10 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-body,html{
-  height:99.4%;
-  padding:0;
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 body{
   background-color: #fcde9c;
@@ -19,12 +20,15 @@ body{
   margin-top: 5%;
   margin-bottom: 5%;
 }
+
 .todo{
-  margin-bottom: -50px;
   min-height: 100%;
+  position: relative;
+  padding: 0 0 100px;
 }
+
 *{
-  border: 0px solid black;
+  border: 0 solid black;
 }
 
 div{
@@ -33,7 +37,7 @@ div{
 
 header{
   background-color: #f75c03;
- 
+
 
 }
 
@@ -42,11 +46,15 @@ footer{
   clear:both;
   padding:0;
   text-align:center;
-  height: -50px;
   /*position: relative;
   float:left;
   margin-top: -3em;
   height: 3em;*/
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 100px;
   }
 main{
   margin-left:5%;
@@ -105,7 +113,7 @@ float:right;
  overflow:hidden;
  margin: 0;
  padding: 0;
-  
+
  }
 
 .actividadItem{
