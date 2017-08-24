@@ -67,7 +67,10 @@ footer{
   left: 0;
   height: 100px;
 }
-  }
+.footerLi{
+  display:inline-block;
+  padding:20px 20px;
+}
 main{
   margin-left:5%;
   margin-right:5%;
