@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Sign Up</title>
+      <link rel="stylesheet" href="basic.css">
+      <link rel="shortcut icon" href="resources/oveja.ico" />
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+
+  </head>
+
+  <body class="background-login">
+    <div class="todo">
+
+    <div class="wrap">
+        <p class="oveja">  Crear Cuenta   </p>
+
+
+
+
+          <form onsubmit="return false;" id="login-form">
+          <!-- onsubmit="return false" hace que el formulario no se envíe a la base de datos,
+          permitiendo que se ejecute la funcion de javascript-->
+                <label class="radio inline">
+                    <input type="radio" name="accountType" value="profesor">
+                    <span> Profesor </span>
+                </label>
+                <label class="radio inline">
+                    <input type="radio" name="accountType" value="alumno">
+                    <span>  Alumno </span>
+                </label>
+            <br />
+
+            <input type="text" name="firstName" class="loginInput" placeholder="Nombre" id="firstName" required>
+            <input type="text" name="lastName" class="loginInput" placeholder="Apellidos" id="lastName" required>
+            <!-- <input type="date" name="born" id="born" required> <!--Hay que cambiarlo por una en fase--> 
+            <label class="radio inline">
+                <input type="radio" name="sex" value="male">
+                <span> Hombre </span>
+            </label>
+            <label class="radio inline">
+                <input type="radio" name="sex" value="female">
+                <span>  Mujer </span>
+            </label>
+            <label class="radio inline">
+                <input type="radio" name="sex" value="other">
+                <span>  Otro </span>
+            </label>
+        <br />
+
+<br>
+            <input type="email" name="email" class="loginInput" placeholder="Correo" id="email" required>
+
+            <input type="text" name="user" class="loginInput" placeholder="Nombre de Usuario" id="user" required>
+
+<br>
+            <input type="password" name="password" class="loginInput" placeholder="Contraseña" id="password" required/>
+            <input type="password" name="passwordRep" class="loginInput" placeholder="Repetir Contraseña" id="passwordRep" required/>
+              <br />
+
+            <input type="submit" class="loginButton" value="Sign Up" onclick="return login()"  />
+
+
+
+
+          </form>
+
+
+
+    </div>
+
+
+    <footer>
+      <ul>
+        <li class="footerLi" > FAQ </li>
+        <li class="footerLi" > Contacto </li>
+      </ul>
+    </footer>
+    </div>
+    <script src="basic.js"> </script>
+  </body>
+</html>
