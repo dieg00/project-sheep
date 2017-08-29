@@ -23,4 +23,17 @@ function login(){
 
 }
 
+function signup(){
+  var  user = document.getElementById("user").value;
+  var password = document.getElementById("password").value;
+  if (user == "Diego" && password == "dot") {
+    window.location.href = "dashboard.html";
+  } else {
+    alert("Error(Logging Failed)")
+    window.location.href = "signup.html";
+  }
+
+
+}
+
 document.getElementById("login-form").user.focus()
