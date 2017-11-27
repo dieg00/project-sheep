@@ -135,10 +135,16 @@ float:right;
 }
 
 .caja{
+ border: 1px solid black;
+ width: 400px;
+ height: 400px;	
 	
 }
 
 .cajaSuperior{
+ height: 180px;
+ top: 10px;
+ position:fixed;
 	
 }
 
