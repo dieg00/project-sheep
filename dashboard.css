@@ -138,7 +138,7 @@ float:right;
 border: 1px solid black;
 width: 33.33%;
 height: 33.33%;	
-margin: 2%;
+margin: 3%;
 }
 
 .cajaSuperior{
@@ -152,8 +152,9 @@ width: 400px;
 .cajaInferior{
 	border: 1px solid black;
 width: 400px;
-margin:0%;
-background-color: brown;
+	margin-left: 5%;
+	margin-bottom: 4%;
+	background-color: brown;
 }
 .iconoResultado{
    width: 100px;
