@@ -158,8 +158,7 @@ width: 400px;
 }
 .iconoResultado{
    width: 100px;
-   border: 1px solid black;
-
+   border: 2px solid black;
 }
 
 .superiorIzquierda{
@@ -172,10 +171,16 @@ width: 400px;
 
 .cajaNombre{
 	
+	
 }
 
 .cajaTitulacion{
 	
+
+	
+}
+.bodyResults{
+	overflow: scroll;
 }
 
 .nextPageButton{
