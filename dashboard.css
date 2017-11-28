@@ -135,23 +135,34 @@ float:right;
 }
 
 .caja{
- border: 1px solid black;
- width: 400px;
- height: 400px;	
-	
+border: 1px solid black;
+width: 33.33%;
+height: 33.33%;	
+margin: 2%;
 }
 
 .cajaSuperior{
- 
 	
+	border: 1px solid black;
+width: 400px;
+	margin: 5%;
+	background-color: brown;
 }
 
 .cajaInferior{
-	
+	border: 1px solid black;
+width: 400px;
+margin:0%;
+background-color: brown;
+}
+.iconoResultado{
+   width: 100px;
+   border: 1px solid black;
+
 }
 
 .superiorIzquierda{
-	
+	margin: 5%;
 }
 
 .superiorDerecha{
@@ -163,5 +174,9 @@ float:right;
 }
 
 .cajaTitulacion{
+	
+}
+
+.nextPageButton{
 	
 }
