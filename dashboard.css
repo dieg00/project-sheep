@@ -12,7 +12,7 @@ html, body{
   overflow: hidden;
 }
 body{
-  background-color: #fcde9c;
+  background-color: #d7d9ce;
   font-family:"News Cycle", sans-serif;
   color: #3f2830;
 }
@@ -37,13 +37,13 @@ div{
 }
 
 header{
-  background-color: #f75c03;
+  background-color: #13505b;
 
 
 }
 
 footer{
-  background:#3f2830;
+  background:#040404;
   color:#fcde9c;
   clear:both;
   padding:0px 0px;
@@ -107,7 +107,7 @@ float:right;
 
 .icon{
   width: 100px;
-
+border-radius:100%;
 }
 
 .actividadMenu{
@@ -148,7 +148,7 @@ display: inline-block;
 width: 90%;
 	margin: 5%;
 	height: 40%;
-	background-color: brown;
+	background-color: #119da4;
 }
 
 .cajaInferior{
@@ -157,12 +157,12 @@ width: 90%;
 	margin-left: 5%;
 	height: 35%;
 	margin-bottom: 5%;
-	background-color: brown;
+	background-color: #0c7489;
 }
 .iconoResultado{
    width: 100px;
    border: 2px solid black;
-   border-radius: 2%;
+   border-radius: 50%;
    
 }
 
@@ -200,8 +200,4 @@ width: 90%;
 
 .resultsList{
 	list-style-type:none;
-}
-.iconoListaSkype{
-width:40px;
-radius:100%;
 }
