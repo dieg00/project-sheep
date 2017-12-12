@@ -107,7 +107,7 @@ float:right;
 
 .icon{
   width: 100px;
-border-radius:100%;
+
 }
 
 .actividadMenu{
@@ -200,4 +200,8 @@ width: 90%;
 
 .resultsList{
 	list-style-type:none;
+}
+.iconoListaSkype{
+	width: 20px;
+	margin-top:8px;
 }
